@@ -19,7 +19,6 @@ def Accuracy(TP, TN, FP, FN):
 def Miou(TP, TN, FP, FN):
     if (FP + FN + TP) == 0:
         return 0
-    # print('TP={} TN={} FP={} FN={}'.format(TP, TN, FP, FN))
     return float(TP) / float(FP + FN + TP)
 
 def Dice(TP, TN, FP, FN):
@@ -76,14 +75,12 @@ def IOU_3d(Reframe, GTframe):
     thickness = thickness1 + thickness2 - (end_front - start_front)
 
     if width <= 0 or height <= 0 or thickness <= 0:
-        ratio = 0  # 重叠率为 0
+        ratio = 0 
     else:
-        Area = width * height * thickness;  # 两立方体相交体积
+        Area = width * height * thickness;  
         Area1 = width1 * height1 * thickness1
         Area2 = width2 * height2 * thickness2
         ratio = Area * 1. / (Area1 + Area2 - Area)
-    # return IOU
-    # print(ratio)
     return ratio
 
 def get_dect_TP_TN_FP_FN(mask_bboxs, pred_bboxs, thrd_iou): # thrd_iou=0.01
