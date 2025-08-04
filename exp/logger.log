@@ -1,0 +1,52 @@
+2025-08-04 21:41:57,647 INFO    [task.py, 62] no checkpoint found at ''
+2025-08-04 21:41:57,647 INFO    [task.py, 120] ### Model loaded Successfully ###
+2025-08-04 21:41:57,648 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
+2025-08-04 21:42:14,854 INFO    [task.py, 62] no checkpoint found at ''
+2025-08-04 21:42:14,855 INFO    [task.py, 120] ### Model loaded Successfully ###
+2025-08-04 21:42:14,856 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
+2025-08-04 21:42:15,176 INFO    [aneurysm_seg.py, 169] the eval data count: 1
+2025-08-04 21:42:48,948 INFO    [aneurysm_seg.py, 236] total data: 1,avg cuda time: 30
+2025-08-04 21:42:58,276 ERROR   exception calling callback for <Future at 0x7f40b4961df0 state=finished returned tuple>
+Traceback (most recent call last):
+  File "/home/lipeiying/.conda/envs/aneurysm/lib/python3.8/concurrent/futures/_base.py", line 328, in _invoke_callbacks
+    callback(self)
+  File "/home/lipeiying/program/_Aneurysm_/MVRNet_release/tasks/aneurysm/batch_metric.py", line 21, in _print
+    if finished_count % verbose == 0:
+ZeroDivisionError: integer division or modulo by zero
+2025-08-04 21:42:58,561 INFO    [aneurysm_seg.py, 242] eval summary: PRECISION=1.0000(1/1);RECALL=1.0000(1/1);Sensitivity=1.0000(1/1);Specificity=0.0000(0/0);Dice=0.0001;CaseTPLesionDICE=0.0001;LesionRecallDice=0.0001
+2025-08-04 21:43:00,278 INFO    [aneurysm_seg.py, 84] >>>>>>>>>>>>>>>> current epoch=0000 <<<<<<<<<<<<<<<<
+2025-08-04 21:43:00,279 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 12
+2025-08-04 21:43:39,790 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 12
+2025-08-04 21:44:20,731 INFO    [task.py, 62] no checkpoint found at ''
+2025-08-04 21:44:20,731 INFO    [task.py, 120] ### Model loaded Successfully ###
+2025-08-04 21:44:20,732 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
+2025-08-04 21:44:21,056 INFO    [aneurysm_seg.py, 169] the eval data count: 1
+2025-08-04 21:45:01,048 INFO    [aneurysm_seg.py, 236] total data: 1,avg cuda time: 37
+2025-08-04 21:45:09,903 ERROR   exception calling callback for <Future at 0x7f208fd3a520 state=finished returned tuple>
+Traceback (most recent call last):
+  File "/home/lipeiying/.conda/envs/aneurysm/lib/python3.8/concurrent/futures/_base.py", line 328, in _invoke_callbacks
+    callback(self)
+  File "/home/lipeiying/program/_Aneurysm_/MVRNet_release/tasks/aneurysm/batch_metric.py", line 21, in _print
+    if finished_count % verbose == 0:
+ZeroDivisionError: integer division or modulo by zero
+2025-08-04 21:45:10,063 INFO    [aneurysm_seg.py, 242] eval summary: PRECISION=1.0000(1/1);RECALL=1.0000(1/1);Sensitivity=1.0000(1/1);Specificity=0.0000(0/0);Dice=0.0001;CaseTPLesionDICE=0.0001;LesionRecallDice=0.0001
+2025-08-04 21:45:12,043 INFO    [aneurysm_seg.py, 84] >>>>>>>>>>>>>>>> current epoch=0000 <<<<<<<<<<<<<<<<
+2025-08-04 21:45:12,043 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
+2025-08-04 21:46:13,190 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
+2025-08-04 21:46:36,909 INFO    [task.py, 62] no checkpoint found at ''
+2025-08-04 21:46:36,909 INFO    [task.py, 120] ### Model loaded Successfully ###
+2025-08-04 21:46:36,910 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
+2025-08-04 21:46:37,240 INFO    [aneurysm_seg.py, 169] the eval data count: 1
+2025-08-04 21:47:17,959 INFO    [aneurysm_seg.py, 236] total data: 1,avg cuda time: 37
+2025-08-04 21:47:26,253 INFO    [aneurysm_seg.py, 242] eval summary: PRECISION=1.0000(1/1);RECALL=1.0000(1/1);Sensitivity=1.0000(1/1);Specificity=0.0000(0/0);Dice=0.0001;CaseTPLesionDICE=0.0001;LesionRecallDice=0.0001
+2025-08-04 21:47:27,432 INFO    [aneurysm_seg.py, 84] >>>>>>>>>>>>>>>> current epoch=0000 <<<<<<<<<<<<<<<<
+2025-08-04 21:47:27,433 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
+2025-08-04 21:57:28,081 INFO    [task.py, 62] no checkpoint found at ''
+2025-08-04 21:57:28,081 INFO    [task.py, 120] ### Model loaded Successfully ###
+2025-08-04 21:57:28,082 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
+2025-08-04 21:57:28,438 INFO    [aneurysm_seg.py, 169] the eval data count: 1
+2025-08-04 21:58:05,136 INFO    [aneurysm_seg.py, 236] total data: 1,avg cuda time: 34
+2025-08-04 21:58:13,585 INFO    [aneurysm_seg.py, 242] eval summary: PRECISION=1.0000(1/1);RECALL=1.0000(1/1);Sensitivity=1.0000(1/1);Specificity=0.0000(0/0);Dice=0.0001;CaseTPLesionDICE=0.0001;LesionRecallDice=0.0001
+2025-08-04 21:58:14,820 INFO    [aneurysm_seg.py, 84] >>>>>>>>>>>>>>>> current epoch=0000 <<<<<<<<<<<<<<<<
+2025-08-04 21:58:14,821 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
+2025-08-04 21:59:15,690 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
