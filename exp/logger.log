@@ -1,8 +1,0 @@
-2025-08-04 23:45:48,867 INFO    [task.py, 62] no checkpoint found at ''
-2025-08-04 23:45:48,867 INFO    [task.py, 120] ### Model loaded Successfully ###
-2025-08-04 23:45:48,868 INFO    [task.py, 141] Model #datacat_refine_multi_add# parameters: 20.62 M
-2025-08-04 23:45:49,219 INFO    [aneurysm_seg.py, 169] the eval data count: 1
-2025-08-04 23:46:36,050 INFO    [aneurysm_seg.py, 236] total data: 1,avg cuda time: 44
-2025-08-04 23:46:44,382 INFO    [aneurysm_seg.py, 242] eval summary: PRECISION=1.0000(1/1);RECALL=1.0000(1/1);Sensitivity=1.0000(1/1);Specificity=0.0000(0/0);Dice=0.0001;CaseTPLesionDICE=0.0001;LesionRecallDice=0.0001
-2025-08-04 23:46:45,622 INFO    [aneurysm_seg.py, 84] >>>>>>>>>>>>>>>> current epoch=0000 <<<<<<<<<<<<<<<<
-2025-08-04 23:46:45,623 INFO    [aneurysm_seg.py, 88] current epoch learning rate:0.00010000, train batch: 33
