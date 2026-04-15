@@ -34,11 +34,7 @@ dataset
 
 ### Installation Environment
 
-Run command as below.
-
-```shell script
-pip install -r requirements.txt
-```
+Follow the commands in `env_install.sh` to set up the environment.
 
 ### Train
 Run command as below.
@@ -52,4 +48,9 @@ Run command as below.
 ```shell script
 bash evaluation.sh
 ```
+
+### Data preprocessing
+
+Please look at the EF-CTA folder and execute the Python files in sequence according to the README.
+
 
