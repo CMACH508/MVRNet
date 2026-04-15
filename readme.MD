@@ -9,7 +9,7 @@ We introduce MVRNet, a deep learning framework for detecting and segmenting intr
 
 MVRNet outperforms state-of-the-art methods, boosting the F1-score by 24% and IoU by 16%, with >2× improvement on challenging cases.
 
-<img src="./graphical.png" alt="图片alt" title="MVRNet" style="width:70%" />
+<img src="graphical.png" alt="图片alt" title="MVRNet" style="width:70%" />
 
 
 ### Checkpoints
